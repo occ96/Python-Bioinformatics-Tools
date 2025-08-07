@@ -16,7 +16,9 @@ dbGaP Study Accession: phs00081vp1; (https://www.ncbi.nlm.nih.gov/projects/gap/c
 Converts .chpa file to .vcf format
 
 '''python
+
 ##fileformat=VCFv4.2
 #CHROM  POS  ID  REF  ALT  QUAL  FILTER  INFO
 chr1    123456  .  A  G  .  .  .
-chr2    234567  .  T  C  .  .  .'''
+chr2    234567  .  T  C  .  .  .
+'''
