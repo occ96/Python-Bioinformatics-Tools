@@ -73,8 +73,8 @@ functional_ultra_rare_snps = ultra_rare_exome_snps_df[
     ultra_rare_exome_snps_df["ExonicFunc.refGeneWithVer"].str.contains("nonsynonymous|stopgain|frameshift", na=False)
 ]
 
-# Save results
-functional_ultra_rare_snps.to_csv("/Users/katiecarte/Desktop/BIOT 670I/Data/Processed Results/Functional_Ultra_Rare_SNPs.csv", index=False)
+# Save results to designated filepath
+functional_ultra_rare_snps.to_csv("", index=False)
 
 print(f"Identified {len(functional_ultra_rare_snps)} functionally impactful ultra-rare SNPs.")
 
