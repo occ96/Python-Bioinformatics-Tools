@@ -63,7 +63,7 @@ print(f"Ultra-Rare SNPs (Genome): {len(ultra_rare_genome_snps_df)}")
 #Identify Functionally Impactful Ultra-Rare Variants
 
 # Load ultra-rare SNPs
-ultra_rare_exome_snps_df = pd.read_csv("/Users/katiecarte/Desktop/BIOT 670I/Data/Processed Results/All_Ultra_Rare_SNPs_Exome.csv")
+ultra_rare_exome_snps_df = pd.read_csv("")
 
 # Convert column to string
 ultra_rare_exome_snps_df["ExonicFunc.refGeneWithVer"] = ultra_rare_exome_snps_df["ExonicFunc.refGeneWithVer"].astype(str)
