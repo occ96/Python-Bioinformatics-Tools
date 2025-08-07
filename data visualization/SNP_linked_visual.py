@@ -1,4 +1,4 @@
-# Purpose: To show linked chromosome data based on the breast cancer dataset.
+# Purpose: To show linked chromosome data based on the breast cancer dataset. This will generate a histogram and a heatmap visualization.
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -110,3 +110,4 @@ def main():
 # Run the program
 if __name__ == "__main__":
     main()
+
