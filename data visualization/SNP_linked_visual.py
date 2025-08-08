@@ -58,7 +58,7 @@ def plot_manhattan(df):
     plt.colorbar(label="Chromosome")
     plt.show()
 
-# Function to generate MAF Distribution Histogram
+# Function to generate Minor Allele Frequency (MAF) Distribution Histogram
 def plot_maf_distribution(df):
     plt.figure(figsize=(8, 5))
     sns.histplot(df["MAF"], bins=50, kde=True, color="blue")
@@ -110,4 +110,5 @@ def main():
 # Run the program
 if __name__ == "__main__":
     main()
+
 
